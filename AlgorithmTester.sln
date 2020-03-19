@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmTester", "AlgorithmTester\AlgorithmTester.csproj", "{3EF3D4B6-29BE-490B-B41A-D3B2229FAD9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm Executor", "AlgorithmTester\Algorithm Executor.csproj", "{3EF3D4B6-29BE-490B-B41A-D3B2229FAD9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCase Finder", "TestCase Finder\TestCase Finder.csproj", "{349596E9-AE9D-4E71-8801-761C60CD4661}"
 EndProject
