@@ -11,8 +11,8 @@ namespace AlgorithmTester
 {
     class Program
     {
-        static readonly string EXE_PATH = @"C:\Users\Hyeoun\OneDrive - 서울시립대학교\알림\백준 코드\1학년 겨울방학\미국올림피아드\3주차\Milk Measurement.exe";
-        static readonly string TXT_PATH = @"C:\Users\Hyeoun\Downloads\measurement_silver_dec17\10.in";
+        static readonly string EXE_PATH = @"--Algorithm EXE Path--";
+        static readonly string TXT_PATH = @"--Input Path--";
         static readonly int WAIT = 5000;
 
         static DateTime StartTime;
