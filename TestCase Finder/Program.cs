@@ -10,9 +10,9 @@ namespace TestCase_Finder
 {
     class Program
     {
-        private static readonly string GENERATOR_PY = @"--Path of Input Generator Which is Written in Python--";
-        private static readonly string ANSWER_EXE = @"--Path of EXE Which is Right for the Problem--";
-        private static readonly string TEST_EXE = @"--Path of EXE to Find a Test-Case Which Gives WA--";
+        private static readonly string GENERATOR_PY = @"C:\Users\Hyeoun\OneDrive - 서울시립대학교\알림\백준 코드\test.py";
+        private static readonly string ANSWER_EXE = @"C:\Users\Hyeoun\OneDrive - 서울시립대학교\알림\백준 코드\2학년 1학기\CodeJam\QR\Parenting Partnering Returns.exe";
+        private static readonly string TEST_EXE = @"C:\Users\Hyeoun\OneDrive - 서울시립대학교\알림\백준 코드\Test.exe";
         static readonly int WAIT = 5000;
 
         enum ProcessResult { RTE, TLE, PASS }
@@ -138,8 +138,8 @@ namespace TestCase_Finder
                 string line1, line2;
                 while (true)
                 {
-                    line1 = sr1.ReadLine().Trim();
-                    line2 = sr2.ReadLine().Trim();
+                    line1 = sr1.ReadLine();
+                    line2 = sr2.ReadLine();
 
                     bool isEnd1 = string.IsNullOrWhiteSpace(line1), isEnd2 = string.IsNullOrWhiteSpace(line2);
 
@@ -151,6 +151,8 @@ namespace TestCase_Finder
 
                     else
                     {
+                        line1 = line1.Trim();
+                        line2 = line2.Trim();
                         int commonSize = Math.Min(line1.Length, line2.Length);
 
                         for (int i = 0; i < commonSize; ++i)
